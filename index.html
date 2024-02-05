@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hilarius &#129315</title>
+    
 </head>
 <style>
     body{
-        background-color: #faf;
+        color:white;
+        text-align: center;
+        
     }
+
     header, nav, ul{
         display:contents;
         
@@ -28,73 +32,140 @@ span{
     
 }
 .emoji{
-    font-size: 8em;
+    font-size: 4rem;
+    display: inline-flex;
+    max-width: 100%;
 }
+
 .butn{
     text-align: center;
 }
 
 #wrap{
     padding: 10px;
-    border-radius: 5px 10px;
-    box-shadow: 2px 3px 3px 1px black;
+    border-radius: 5px 6px;
 }
 
 #footer{
     text-align: center;
-    background-color: rgb(224, 209, 209);
-    
+    background-color: black;
+    padding:3rem;
+    display:block;
+    flex-direction: column;
+   
+}
+
+/* .btn{
+padding:1.4% 4%;
+border-radius: 2px;
+margin-bottom: 2px;
+background:var(--color);
+cursor:pointer;
+padding-left: 50px;
+align-self: flex-end;
+
+} */
+.colors button{
+    font-size: 3rem;
 }
 
 
+.container{
+    width: 70%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(8, 41, 8);
+    /* border-radius: 40px 1px; */
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 6px 8px black;
+}
+
+.container p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: justify;
+    box-shadow: 1px 1px 1px black;
+}
+
+.container button{
+padding: 1% 6%;
+border-radius: 40px;
+background: red;
+cursor: pointer;
+font-size: 2em;
+}
+
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+
+.colors button{
+    cursor: pointer;
+}
 </style>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-               <a href="#"> <li>Colour blue</li></a>
-                <li>Colour pink</li>
-                <li>Colour gray</li>
-                <li>Colour purple</li>
-            </ul>
-        </nav>
-    </header>
+<body bgColor="gray">
+    <div class="colors">
+
+        <button class="blue">Blue</button>
+        <button class="yellow">Yellow</button>
+        <button class="purple">Purple</button>
+        <button class="green">Green</button>
+        <button class="orange">Orange</button>
+        <button class="black">Black</button>
+        </div>
 
     <div id="wrap">
     <span>
         <h1>Hilarius</h1>
-        <div class="emoji">&#129315</div>
-    <p>A joke will be placed here for you to read and if it interest your spirit you will laugh to make it feel anquinted to it</p>
-    </span>
-    <div class="butn">
+        <div class="emoji">
+            <p>&#129315 &#129315 &#129315 &#129315 &#129315 &#129315</p>
+        
+        </div>
+        
+        <div class="container">
+        <div class="joke">
+        <p>A joke will be placed here for you to read and if it interest
+             your spirit you will laugh to make it feel anquinted to it</p>
+        </div>
         <button>Next Joke</button>
-    </div>
-     
+        </div>
+    </span>
+    
 </div>
 
     <hr/>
 
     <footer>
         <div id="footer">
-            <h3>Well, we hope you're having a good time knowing that you are laughing</h3>
+            <h3>Well, we hope you're having a good time noticing that you are laughing</h3>
             <p>To extend the joy why don't you share with friends<br/> by just copying the link here below & send them</p>
             <code>https://hilarius.com</code>
             <p>Or to get feedback from the developers email us on</p>
-            <p><a href="http://reubentaxonomy@gmail.com">Email</a></p> 
+            <p><i>You can email us on:</i> <code><b>thebanks1200@gmail.com</b></code></p>
           
-            <p>this site is copyrighted &copy </p>
+            <p>&copy 2023 copyright </p>
         
         
         </div>
         
     </footer>
-
-    <script>
-        
-        // document.write("hello bitches")
-    </script>
-    
+    <script src="./fun.js"></script>
 
 </body>
 
